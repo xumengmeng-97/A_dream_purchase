@@ -4,7 +4,7 @@
 chromedriver和chrome匹配，参考https://blog.csdn.net/BinGISer/article/details/88559532
 最后成功测试运行时间：2021-04-23。
 使用前请将待抢票者的姓名、手机、地址设为默认，如存在多名实名者，请提前保存相关信息。
-此方法太过于依赖大麦网页面源码的元素的title、Xpath、class name、tag name等，若相应的绝对路径寻找不到则代码无法运行。
+此方法太过于依赖网页面源码的元素的title、Xpath、class name、tag name等，若相应的绝对路径寻找不到则代码无法运行。
 具体定位方案请参见https://github.com/Entromorgan/Autoticket/wiki/%E5%AE%9A%E4%BD%8D%E6%96%B9%E5%BC%8F
 
 买票流程：
