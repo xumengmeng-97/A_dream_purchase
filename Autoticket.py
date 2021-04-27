@@ -133,6 +133,7 @@ class Concert(object):
             options = webdriver.ChromeOptions() # selenium配置浏览器的参数,创建ChromeOptions()类
             prefs = {"profile.managed_default_content_settings.images":2}
             options.add_experimental_option("prefs",prefs) #添加实验性质的设置参数
+            options.add_experimental_option('excludeSwitches', ['enable-automation'])
             self.driver = webdriver.Chrome(options=options)
             self.driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
                 "source": """
